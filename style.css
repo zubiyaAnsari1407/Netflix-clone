@@ -144,8 +144,8 @@ h4{
 }
 .gif-box{
    position: absolute;
-   /* top:2389px; */
-   top:243%;
+   top:2400px;
+   /* top:243%; */
    margin-left:300px ;
 }
 .gif-box-text{
@@ -193,17 +193,17 @@ h4{
 } */
 .apple-pc{
    position: absolute;
-   left: 54%;
-   width: 700px;
+   left: 53%;
+   width: 760px;
    /* margin-bottom: 160px; */
 }
 
 .fauji-vedio{
    position: absolute;
    left:60%;
-   width:460px;
-   top:290%;
-   z-index:-5;
+   width:470px;
+    margin-top: 3%;
+   z-index:-0;
 }
 .fauji h1{
    position: absolute;
