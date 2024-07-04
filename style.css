@@ -128,7 +128,7 @@ h4{
 }
 .video1{
    position:absolute;
-   top:147%;
+   top:146%;
    margin-left: 870px;
    z-index: -1;
    /* height: 42%; */
@@ -152,7 +152,7 @@ h4{
    color: white;
    position: absolute;
    margin-left: 390px;
-   top:246%;
+   top:255%;
    font-weight: 500;
    font-size:  1.357rem;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
@@ -162,7 +162,7 @@ h4{
    color: #0071eb;
    margin-left: 390px;
    position:absolute;
-   top: 250%;
+   top: 259%;
    line-height: 8px;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
@@ -170,7 +170,7 @@ h4{
 .gif-icon{
    height: 70px;
    position: absolute;
-   top:245%;
+   top:259%;
    margin-left: 620px;
 }
 .gif-side-para h1{
