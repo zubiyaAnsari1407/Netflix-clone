@@ -129,7 +129,7 @@ h4{
 .video1{
    position:absolute;
    top:147%;
-   margin-left: 880px;
+   margin-left: 870px;
    z-index: -1;
    /* height: 42%; */
    /* width: 110%; */
@@ -203,7 +203,7 @@ h4{
    left:60%;
    width:460px;
    top:290%;
-   z-index:-1;
+   z-index:-5;
 }
 .fauji h1{
    position: absolute;
