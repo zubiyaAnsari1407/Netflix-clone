@@ -5,6 +5,7 @@
 .background-image{
    border-bottom: 15px solid rgb(37, 37, 37);
     margin-bottom: 120px;
+     overflow: hidden;
 }
 .netflix-logo{
    width:300px;
@@ -127,7 +128,7 @@ h4{
 }
 .video1{
    position:absolute;
-   top:148%;
+   top:147%;
    margin-left: 45%;
    z-index: -1;
    /* height: 42%; */
@@ -149,8 +150,8 @@ h4{
 .gif-box-text{
    color: white;
    position: absolute;
-   margin-left: 400px;
-   top:253%;
+   margin-left: 390px;
+   top:247%;
    font-weight: 500;
    font-size:  1.357rem;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
@@ -158,9 +159,9 @@ h4{
 
 .gif-box-text2   {
    color: #0071eb;
-   margin-left: 400px;
+   margin-left: 390px;
    position:absolute;
-   top: 257%;
+   top: 251%;
    line-height: 8px;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
@@ -168,8 +169,8 @@ h4{
 .gif-icon{
    height: 70px;
    position: absolute;
-   top:252%;
-   margin-left: 633px;
+   top:246%;
+   margin-left: 620px;
 }
 .gif-side-para h1{
    font-weight: 700;
@@ -200,7 +201,7 @@ h4{
    position: absolute;
    left:60%;
    width:460px;
-   top:294%;
+   top:290%;
    z-index:-1;
 }
 .fauji h1{
@@ -227,7 +228,7 @@ h4{
 }
   .children-cartoon-img{
    position: absolute;
-   top:370%;
+   top:360%;
    margin-left: 200px;
    width: 690px;
 }
@@ -236,12 +237,14 @@ h4{
    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
    margin-left: 970px;
    position: absolute;
-   top:387%;
+   top:380%;
 }
 .children-section h3{
    position: absolute;
    margin-left: 970px;
-   top:398%;
+   top:392%;
+   line-height: 40px;
+   font-weight: 400;
    margin-bottom: 200px;
 }
 .children-section{
@@ -325,3 +328,6 @@ text-align: left;
    margin-right: 40px;
    
 } 
+.ready-to-watch{
+   text-align: center;
+}
