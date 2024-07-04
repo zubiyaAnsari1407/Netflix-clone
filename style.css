@@ -272,7 +272,7 @@ h4{
    left: 19%;
  }
   */
-  .accordion-button{
+  /* .accordion-button{
    width:40%;
    margin-left: 0px;
    text-align: left;
@@ -285,6 +285,7 @@ h4{
    height: 70%;
    position: relative;
 } 
+
  .collapse:not(.show) {
    display: block;
    height: 0;
@@ -298,5 +299,25 @@ h4{
  .svg-img{
    margin-left: 950px;
    margin-top: 10px;
- }
+ } */
 
+.btn-ques {
+   font-size: 30px;
+   width: 100%;
+   text-align: left;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.btn-ques .fa-plus {
+   margin-left: auto;
+}
+.card-body-ques {
+   margin-left: 20px;
+}
+.text-light{
+  position:relative;
+   top:-10%;
+padding: 10px 20px;
+text-align: left;
+}
