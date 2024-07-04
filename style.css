@@ -32,6 +32,7 @@
    padding-bottom: 0px;
    margin-bottom: 0;
    padding-top: 10px;
+
 }
 .btn-danger{
    position: absolute;
@@ -81,6 +82,7 @@ h4{
    border-radius: 10px;
    background-color:rgb(37, 35, 35);
    padding: 20px;
+   opacity: 75%;
 }
 .btn .btn-danger{
    width: 130%;
@@ -338,6 +340,61 @@ text-align: left;
    margin-right: 40px;
    
 } 
-.ready-to-watch{
+.ready-to-watch h3{
    text-align: center;
+   font-weight: 400;
+   font-size: 23px;
+   color: white;
+}
+.email-add-2{
+   background-color:rgb(41, 41, 41);
+   border: 1px solid whitesmoke;
+    margin-left: 660px;
+    color: aliceblue;
+    margin-top: 10px;
+    padding: 10px 15px ;
+    width: 400px;
+    height: 70px;
+    border-radius: 0.25rem;
+}
+.btn-get-started button{
+ color:white;
+ background-color:rgb(229,9,20);
+ border-radius: 0.25rem;
+ margin-left: 1080px;
+ margin-top: -68px;
+ position: absolute;
+ width: 200px;
+ height:70px;
+ text-align: left;
+ padding-left:20px ;
+ font-size: 22px;
+ font-weight: 600;
+
+}
+.arrow{
+   font-weight: 600;
+     font : size 2px;
+     position: absolute;
+     left:160px
+
+}
+.ready-to-watch{
+   margin-bottom: 90px;
+   border-bottom: 15px solid rgb(37, 37, 37);
+}
+.footer-text{
+   list-style-type: none;
+   text-decoration:underline;
+   color: whitesmoke;
+}
+.grid-container{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto auto auto auto ;
+}
+ul{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto auto auto auto ;
 }
