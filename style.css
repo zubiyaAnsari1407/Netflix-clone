@@ -144,14 +144,15 @@ h4{
 }
 .gif-box{
    position: absolute;
-   top:2389px;
+   /* top:2389px; */
+   top:243%;
    margin-left:300px ;
 }
 .gif-box-text{
    color: white;
    position: absolute;
    margin-left: 390px;
-   top:247%;
+   top:246%;
    font-weight: 500;
    font-size:  1.357rem;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
@@ -161,7 +162,7 @@ h4{
    color: #0071eb;
    margin-left: 390px;
    position:absolute;
-   top: 251%;
+   top: 250%;
    line-height: 8px;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
@@ -169,7 +170,7 @@ h4{
 .gif-icon{
    height: 70px;
    position: absolute;
-   top:246%;
+   top:245%;
    margin-left: 620px;
 }
 .gif-side-para h1{
@@ -201,7 +202,7 @@ h4{
    position: absolute;
    left:60%;
    width:460px;
-   top:290%;
+   top:289%;
    z-index:-1;
 }
 .fauji h1{
