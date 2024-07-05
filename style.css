@@ -383,18 +383,89 @@ text-align: left;
    margin-bottom: 90px;
    border-bottom: 15px solid rgb(37, 37, 37);
 }
-.footer-text{
+.footer-text li{
    list-style-type: none;
-   text-decoration:underline;
-   color: whitesmoke;
+ 
 }
-.grid-container{
-   display: grid;
-   grid-template-columns: auto auto auto auto;
-   grid-template-rows: auto auto auto auto ;
+.FAQ-div1{
+   display: flex;
+   list-style-type: none;
 }
-ul{
-   display: grid;
-   grid-template-columns: auto auto auto auto;
-   grid-template-rows: auto auto auto auto ;
+ .FAQ-div1 ul{
+   display: flex;
+ list-style-type: none;
+ justify-content: space-between;
+ margin-left: 300px;
+ gap: 250px;
+ margin-top: 50px;
+}
+.FAQ-div2 ul{
+   display: flex;
+   list-style-type: none;
+    margin-left: 290px;
+    gap:250px;
+}
+#investor{
+   margin-left: 8px;
+}
+#job{
+   position: absolute;
+   margin-left: 290px;
+}
+#ways-to-watch{
+   position: absolute;
+   margin-left: 620px;
+
+}
+#terms{
+   position: absolute;
+  margin-left:  932px;
+}
+.FAQ-div3{
+   display: flex;
+   /* margin-left: 295px; */
+}
+.FAQ-div3 ul{
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+  margin-left: 295px;
+    gap:250px;
+}
+#cookies-preference{
+   position: absolute;
+   margin-left:286px;
+}
+#corporated{
+   position: absolute;
+   margin-left: 610px;
+}
+#contact{
+   position: absolute;
+   margin-left: 930px;
+}
+.FAQ-div4 ul {
+   display: flex;
+   list-style-type:none;
+   margin-left: 293px;
+   gap: 250px;
+}
+#Legal{
+   position: absolute;
+   margin-left: 290px;
+}
+#only-on{
+   position: absolute;
+   margin-left: 620px;
+}
+.footer-item h6{
+   margin-left: 330px;
+   margin-top: 1px;
+   position: absolute;
+}
+.footer{
+   margin-bottom: 50px;
+}
+.last-part{
+   margin-bottom: 200px;
 }
