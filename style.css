@@ -192,12 +192,22 @@ h4{
    margin-left: 900px;
    line-height: normal;
    position: absolute;
-   top: 249px;
+   top: 249%;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 /* .pc{
    left:55%;
 } */
+ .big-arrow{
+   position: absolute;
+   margin-left:  3%;
+ }
+ .arrow{
+   position: absolute;
+   margin-left: 55% ;
+   margin-top: -58px;
+   font-size: 33px;
+ }
 .apple-pc{
    position: absolute;
    left: 53%;
