@@ -26,7 +26,8 @@
 }
 .btn-dark{
    background-color:black;
-   min-width: 200px;
+   width: 180px;
+   height: 100px;
    border-radius: 10px;
    bottom: 7px double white ;
    padding-bottom: 0px;
@@ -34,14 +35,16 @@
    padding-top: 10px;
 
 }
-.btn-danger{
+.btn-success{
    position: absolute;
-   top:50px;
-   right: 100px;
+   top:-2px;
+   left: 450px;
    background-color: rgb(229,9,20);
-   width: 150px;
+   width: 270px;
    padding-top: 10px;
+   height: 80px;
    padding-bottom: 10px;
+   font-size: xx-large;
    
 }
 .netflix-text{
@@ -49,7 +52,6 @@
    line-height: 10px;
    position: absolute;
    top:460px;
-   /* margin-left: 400px; */
 }
 h1{
    font-size: 70px;
@@ -84,15 +86,16 @@ h4{
    padding: 20px;
    opacity: 75%;
 }
-.btn .btn-danger{
-   width: 130%;
-   height: 80px;
-   left: 460px;
-   top:2px;
-   font-size:2.125rem;
-   font-weight: 500;
+ .btn-danger{
+   width: 160px;
+   height: 50px;
+   left: 1700px;
+   position: absolute;
+   top: 50px;
+   font-size:x-large;
+   font-weight:400;
    background-color: rgb(229,9,20);
-   padding: 10px 0px;
+   padding-bottom: 10px;
    border-radius: 0.25rem;
    color: rgb(225,255,255);
 }
@@ -122,10 +125,8 @@ h4{
    margin-top: 100px;
 }
 .tv {
-   /* width: 120%;  */
    margin-left: 90px;
     margin-top:  11%;
-    /* margin-right: 100px; */
     margin-bottom: 120px;
 }
 .video1{
@@ -133,12 +134,12 @@ h4{
    margin-top:9%;
    margin-left: 870px;
    z-index: -1;
-   /* height: 42%; */
-   /* width: 110%; */
 }
 .text-image-video-section2{
    border-bottom:15px solid rgb(37, 37, 37);  
    margin-bottom: 120px;
+   /* position: relative; */
+   /* top:20px */
 }
 .mobile-img{
    margin-left: 200px;
@@ -155,7 +156,7 @@ h4{
    color: white;
    position: absolute;
    margin-left: 390px;
-   /* top:255%; */
+   /* top:-225%; */
    margin-top: -230px;
    font-weight: 500;
    font-size:  1.357rem;
@@ -191,7 +192,7 @@ h4{
    margin-left: 900px;
    line-height: normal;
    position: absolute;
-   top: 249%;
+   top: 249px;
    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 /* .pc{
@@ -266,55 +267,17 @@ h4{
    margin-top: 800px;
    border-bottom: 15px solid rgb(37, 37, 37);
 }
+.heading{
+   position: absolute;
+   margin-top: -170px;
+}
 .frequently-asked-question{
    font-size: 2rem;
    font-weight: 700;
    margin-left: 100px;
    position: absolute;
-   top:448%;}
-/*  */
- /* .btn-secondary:hover{
-   background-color:;
- } */
-
- /* .card-body {
-   color: aliceblue;
-   background-color:#333533;
-   font-size: 20px;
-   font-weight: 400; 
-   position: absolute; 
-    width: 98%;
-   left: 19%;
- }
-  */
-  /* .accordion-button{
-   width:40%;
-   margin-left: 0px;
-   text-align: left;
-   
-  }
-
-  .accordion-flush{
-   width: 100%;
-   padding: 22px 46px ;
-   height: 70%;
-   position: relative;
-} 
-
- .collapse:not(.show) {
-   display: block;
-   height: 0;
-   overflow: hidden;
-   transition: height 0.35s ease;
- }
- 
- .collapse.show {
-   height: auto;
- }
- .svg-img{
-   margin-left: 950px;
-   margin-top: 10px;
- } */
+   top:448%;
+}
 
 .btn-ques {
    font-size: 30px;
@@ -468,4 +431,205 @@ text-align: left;
 }
 .last-part{
    margin-bottom: 70px;
+}
+
+/* media query for mobile */
+@media only screen and (max-width: 768px) {
+  .background-image{
+   width: 110%;
+   height: 100%;
+  }
+  .netflix-logo{
+   width: 161px;
+   margin-left: 8px;
+  }
+  .btn-warning{
+    width: 150px;
+    height: 39px;
+    position: absolute;
+      margin-left: 115px;
+      margin-top: -1%;
+      font-size: medium;
+  }
+  .language{
+   width: 30px;
+  }
+  .btn-danger{
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  padding-top: 3px;
+  font-size: medium;
+  margin-left: -1445px;
+  margin-top: 34px;
+  }
+  .netflix-text h1{
+   font-size: 34px;
+   margin-left: 35px;
+   margin-top: -168px;
+   font-weight: 400;
+   position: absolute;
+  }
+  .netflix-text h2{
+   font-size: 19px;
+   margin-left: 55px;
+   margin-top: -63px;
+   position: absolute;
+
+
+  }
+  .big-arrow{
+   font-size: 32px;
+  }
+  .netflix-text h4{
+   margin-left: 42px;
+   font-size: 22px;
+   margin-top: -15px;
+
+  }      
+  .email-address{
+   margin-left: 38px;
+   width: 162px;
+   height:20px;
+    margin-top: -147px;
+  }
+  .btn-success{
+   margin-top: 107px;
+   margin-left: -436px;
+   position: absolute;
+   width: 280px;
+   height: 70px;
+   font-size: 26px;
+}
+ .tv {
+      width: 417px;
+      margin-left: -4%;
+      margin-top: 35px;
+  }
+  .video1{
+   width: 300px;
+   margin-top: -10px;
+   margin-left: 40px;
+   z-index: -1;
+  }
+  .text-image-video1{
+   display: flex;
+   flex-direction: column;
+  }
+  .tv-text h1 {
+   position: absolute;
+   font-size: 31px;
+   margin-left: 70px;
+   margin-top: -167px;
+}
+  .tv-text h2{
+   position: absolute;
+   font-size: 25px;
+   font-weight: 340px;
+   margin-left: 24px;
+   margin-top: -68px;
+  }
+  .mobile-img{
+   width: 379px;
+   margin-left: 16px;
+   margin-top: 143px;
+}
+  
+  .gif-box{
+   width: 246px;
+   margin-left: 89px;
+   margin-top: -204px;
+}
+.gif-box-text{
+        margin-left: 141px;
+        margin-top: -192px;
+        font-size: 12px;
+}
+.gif-box-text2{
+   font-size: 12px;
+   margin-left: 139px;
+   margin-top: -172px;
+}
+
+.gif-icon{
+   margin-left: 268px;
+   width: 34px;
+   margin-top: -198px;
+   height: 48px;}
+
+.gif-side-para h1{
+   font-size: 32px;
+   margin-left: 35px;
+   margin-top: -15px;
+   font-style: normal;
+}
+
+.gif-side-para h4{
+   font-size: 21px;
+   margin-top: 1749px;
+   margin-left: 30px;
+}
+
+.fauji-vedio{
+   width: 274px;
+   margin-left: -178px;
+   margin-top: 245px;
+}
+
+.apple-pc{
+   width: 437px;
+   margin-left: -234px;
+   margin-top: 218px;
+}
+.fauji h1{
+   font-size: 40px;
+   margin-left: 22px;
+   margin-top: 106px;
+}
+
+.fauji h4{
+   font-size: 26px;
+   margin-left: 21px;
+   margin-top: 76px;
+}
+.text-image-video-section2{
+margin-bottom: 100px;  
+}
+.children-cartoon-img{
+   width: 481px;
+   margin-left: -31px;
+   margin-top: -418px;
+}
+.children-section h1{
+   font-size: 39px;
+   margin-left: 25px;
+   margin-top: -713px;
+}
+.children-section h3{
+   font-size: 26px;
+   margin-left: 30px;
+   margin-top: -599px;
+}
+.heading b{
+   font-size: 43px;
+   margin-left: -86px;
+   position: absolute;
+   margin-top: -43px
+}
+.email-add-2{
+   margin-left: 1px;
+   width: 235px;
+   height: 66px;
+}
+.btn-get-started button {
+   margin-left: 238px;
+   width: 170px;
+   font-size: 19px;
+}
+.arrow{
+   margin-left: 206px;
+   margin-top: -51px;
+   font-size: 23px;
+}
+
 }
