@@ -511,7 +511,8 @@ text-align: left;
   height: 38px;
   padding-top: 3px;
   font-size: medium;
-  margin-left: -1471px;
+  /* margin-left: -1957; */
+  margin-left: 120%;
   margin-top: 127px;
   }
   .netflix-text h1{
