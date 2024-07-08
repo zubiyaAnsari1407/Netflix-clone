@@ -611,14 +611,14 @@ text-align: left;
 
 .gif-side-para h1{
    font-size: 32px;
-   margin-left: 35px;
-   margin-top: -15px;
+   margin-left: 49px;
+   margin-top: 43px;
    font-style: normal;
 } 
 .gif-side-para h4{
    font-size: 21px;
-   margin-top: -111px;
-   margin-left: 26px;
+   margin-top: -44px;
+   margin-left: 21px;
 }
 
 .fauji-vedio{
@@ -690,8 +690,9 @@ margin-bottom: 100px;
    
 }
 .last-part{
-   margin-bottom: 300px;
+   margin-bottom: 150px;
 }
+
 /* .dropdown-button{
    margin-left: -417px;
    margin-top: -35px;
@@ -705,7 +706,30 @@ margin-bottom: 100px;
    margin-left: 63px;
     margin-top: 12px;
 } */
-
+.FAQ-grid {
+   grid-template-columns: repeat(2, 1fr);
 }
+.parent {
+   position: relative;
+   height: 200px; /* Just an example height */
+   background-color: black;
+}
+#last-line {
+   position: absolute;
+   left: -394px;
+   top: 5px;
+}
+#last-line p {
+   color: rgba(255, 255, 255, 0.7);
+   font-size: 16px;
+   font-weight: 400;
+   margin-left: 81px;
+}
+
+.FAQ-grid ul {
+   padding-left: 10px;
+}
+}
+
  
 
