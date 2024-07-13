@@ -694,10 +694,6 @@ margin-bottom: 100px;
    margin-bottom: 80px;
 } 
 
-/* .dropdown-button{
-   margin-left: -417px;
-   margin-top: -35px;
-} */
 
   .btn-secondary{
    margin-left: -409px;
@@ -712,7 +708,7 @@ margin-bottom: 100px;
 }
    .parent {
    position: relative;
-   height: 200px; /* Just an example height */
+   height: 200px; 
    background-color: black; 
 }
 
@@ -731,3 +727,105 @@ margin-bottom: 100px;
    padding-left: 10px;
 }  
 }
+/* media query for ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+   .btn-danger{
+      margin-left: -869px;
+   }
+   .netflix-text h1{
+      margin-left: 60px;
+      font-size: 60px;
+   }
+   .netflix-text h2{
+      text-align: center;
+      margin-left: 24px;
+      margin-top: 32px;
+  }
+   .netflix-text h4{
+      margin-left: 126px;
+   }
+   .email-address{
+      margin-top: 94px;
+      margin-left: 190px;
+      color: white;
+   }
+   .text-image-video1 h1{
+      font-size: 46px;
+      margin-top: 45px;
+      margin-left: 58px;
+   }
+   .text-image-video1 h2{
+      margin-left: 77px;
+      font-size: 27px;
+   }
+   .video1{
+      margin-left: 540px;
+      margin-top: 175px;
+   }
+   .mobile-img{
+      margin-top: -65px;
+      margin-left: -131px;
+  }
+  .gif-box{
+   margin-left: 4px;
+  }
+  .gif-box-text{
+   margin-left: 108px;
+  }
+  .gif-box-text2{
+   margin-left: 114px;
+  }
+  .gif-icon{
+   margin-left: 306px;
+  }
+  .gif-side-para h1{
+   margin-top: -153%;
+   margin-left: 505px;
+   font-size: 53px;
+  }
+  .gif-side-para h4{
+   margin-top: -171%;
+   margin-left: 518px;
+  }
+  .apple-pc{
+   margin-left: -16px;
+   width: 48%;
+   margin-top: 66px;
+  }
+  .fauji-vedio{
+   margin-left: 9px;
+   width: 29%;
+   margin-top: 115px;
+  }
+  .fauji h1{
+   margin-top: -201%;
+        margin-left: 64px;
+        font-size: 52px;
+  }
+  .fauji h4{
+   margin-top: -207%;
+   margin-left: 29px;
+   font-size: 28px;
+  }
+  .children-cartoon-img{
+   margin-top: -49%;
+   width: 48%;
+   margin-left: -9px;
+  }
+  .children-section h1{
+   margin-top: -39%;
+        margin-left: 506px;
+        font-size: 56px;
+    }
+    .children-section h3{
+      margin-top: -346px;
+      margin-left: 509px;
+      font-size: 24px;
+    }
+    .text-light{
+      font-size: 12px;
+
+    }
+  }
+
