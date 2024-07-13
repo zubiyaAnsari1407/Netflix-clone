@@ -832,7 +832,11 @@ margin-bottom: 100px;
 
     }
     .btn-get-started button {
-      margin-left: 659px;
+      margin-left: 234px;
+      margin-top: 61px;
+    }
+    .btn-ques{
+          width: 90%;
     }
   }
 
